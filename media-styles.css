@@ -1,0 +1,300 @@
+@media (max-width: 925px) {
+  .header-hamburger-menu {
+    display: block;
+  }
+  .hamburger-line {
+    width: 40px;
+    transition: all 0.2s linear;
+  }
+  .hamburger-first-line {
+    transform: translateY(24px) rotate(45deg);
+  }
+  .hamburger-middle-line {
+    transform: translate(10px);
+    opacity: 0;
+  }
+  .main-header {
+    position: static;
+  }
+  .main-header .links-container {
+    height: fit-content;
+    width: 100%;
+  }
+  .main-header .links-container .links-items {
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 122px;
+  }
+  .main-header .links-container .links-items .mobile-home-link {
+    display: block;
+  }
+  .main-header .links-container .links-items .link-item {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .main-header .links-container .links-items .middle-link::after,
+  .main-header .links-container .links-items .careers-link::after {
+    display: none;
+  }
+  .main-header .links-container .links-items .edge-link {
+    padding: 0;
+  }
+  .main-header .links-container .links-items .link-item:hover {
+    font-weight: 400;
+    color: black;
+  }
+  .main-header .links-container .careers-link {
+    height: fit-content;
+  }
+  .main-header .links-container .careers-link-modal {
+    opacity: 1;
+    position: static;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .main-header .links-container .careers-link-modal .careers-link-content {
+    background-color: white;
+    gap: 0;
+    padding: 0;
+  }
+  .main-header .links-container .careers-link-modal .modal-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed #aad6be;
+  }
+  .main-header .links-container .careers-link-modal .modal-link {
+    color: black;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  .main-header .links-container .careers-link-modal .modal-link:hover {
+    color: black;
+  }
+  .main-header .logo-container {
+    height: 60px;
+    margin-right: 0;
+  }
+  .main-header .logo-container img {
+    top: 0;
+    margin: 0;
+    height: 100%;
+  }
+  .main-header .logo-container .logo-text {
+    left: -3px;
+    bottom: 27px;
+  }
+  .link-item-box {
+    display: none;
+    flex-direction: column;
+  }
+  .flex-link {
+    display: flex;
+  }
+  .advertise-box {
+    height: 130px;
+  }
+  .advertise-box .advertise-box-content {
+    font-size: 50px;
+    line-height: 1.1;
+  }
+  .advertise-box #advertise-second-line {
+    font-size: 66px;
+  }
+  .careers-box .gift-message {
+    width: 100%;
+    position: static;
+    margin: 5px 0 0;
+  }
+  .careers-box .careers-menu {
+    margin-bottom: 20px;
+  }
+  .careers-box .careers-menu .careers-options .careers-title {
+    width: 100%;
+    position: static;
+    margin: 25px 0;
+    text-align: center;
+  }
+  .careers-box .careers-menu .careers-options .courses {
+    width: 100%;
+    height: 90%;
+    gap: 0;
+  }
+  .careers-box .careers-menu .careers-options .courses .course-seperator {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .careers-box .careers-menu .form-container {
+    display: none;
+  }
+  .reasons-box {
+    box-shadow: none;
+  }
+  .reasons-box .reasons-title {
+    margin: 10px auto;
+  }
+  .reasons-box .reasons-content {
+    padding: 50px 15px 60px 0;
+  }
+  .reasons-box .reasons-content .reasons-cards-container {
+    flex-direction: column;
+  }
+  .reasons-box .reasons-content .reasons-cards-container .others-card,
+  .reasons-box .reasons-content .reasons-cards-container .our-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+    transition: none;
+  }
+  .reasons-box .reasons-content .reasons-cards-container .others-card:hover,
+  .reasons-box .reasons-content .reasons-cards-container .our-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .graduates-box .graduates-content {
+    padding: 50px 15px 60px 0;
+  }
+  .questions-box,
+  .public-service-box {
+    padding: 50px 15px 60px 0;
+  }
+  .questions-box .questions-content,
+  .questions-box .ps-questions,
+  .public-service-box .questions-content,
+  .public-service-box .ps-questions {
+    flex-direction: column;
+    margin: 0;
+  }
+  .questions-box .questions-content .question-item,
+  .questions-box .ps-questions .question-item,
+  .public-service-box .questions-content .question-item,
+  .public-service-box .ps-questions .question-item {
+    width: 100%;
+    margin: 0;
+    border-bottom: 0.5px solid #dbdbdb;
+  }
+  .footer-box form {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .footer-box form .footer-form-main-content {
+    flex-direction: column;
+  }
+  .footer-box form .footer-form-main-content .footer-form-text-input {
+    width: 100%;
+    max-width: 1500px;
+    margin: 25px auto;
+  }
+  .footer-box form .footer-checkbox-container {
+    justify-content: center;
+    width: 100%;
+  }
+  .footer-box form .footer-checkbox-container label {
+    font-size: 0.8rem;
+    margin: 0;
+    font-weight: 400;
+  }
+  .footer-box form .footer-checkbox-container input {
+    margin-right: 3px;
+  }
+  .whatsapp-button {
+    display: none;
+  }
+  .contact-links-container {
+    max-height: 100px;
+    visibility: visible;
+  }
+  .contact-links-container .contact-link {
+    display: flex;
+  }
+  .form-submitted-modal p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1205px) {
+  .how-it-works-box {
+    padding: 65px 30px 10px;
+  }
+  .how-it-works-box .how-it-works-cards {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card {
+    height: auto;
+    width: 100%;
+    padding: 6px 20px;
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card .train-triangle {
+    display: none;
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card .career-triangle {
+    display: none;
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card .assignment-triangle {
+    display: none;
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card .how-it-works-card-title .card-sign {
+    display: block;
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card .how-it-works-card-title .closing {
+    transform: rotate(45deg);
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card .how-it-works-card-content {
+    max-height: 0;
+    visibility: hidden;
+  }
+  .how-it-works-box .how-it-works-cards .how-it-works-card .show-card-content {
+    visibility: visible;
+    max-height: 1000px;
+  }
+}
+@media (max-width: 450px) {
+  .advertise-box .advertise-box-content {
+    font-size: 10vw;
+    line-height: 1;
+  }
+  .advertise-box #advertise-second-line {
+    font-size: 15vw;
+  }
+  .careers-menu .careers-options .courses {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .careers-menu .careers-options .courses .course-button {
+    width: 100%;
+    height: 45px;
+    flex-direction: row;
+    border: 1px solid hsla(0, 0%, 80%, 0.5);
+    margin: 0 0 5px 0;
+  }
+  .careers-menu .careers-options .courses .course-button .course-logo {
+    margin-left: 15px;
+  }
+  .careers-menu .careers-options .courses .course-button .course-logo img {
+    height: 40px;
+    width: 40px;
+  }
+  .careers-menu .careers-options .courses .course-button .course-seperator {
+    height: 30px;
+    width: 5px;
+    margin: 0 1px;
+  }
+  .careers-menu .careers-options .courses .course-button .course-description {
+    margin: 0 7px 0 0;
+    width: 100%;
+    text-align: start;
+  }
+  .careers-menu .careers-options .courses .course-button i {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .first-entrance-modal-container {
+    display: none;
+  }
+}
